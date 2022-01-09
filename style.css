@@ -1,0 +1,37 @@
+body
+{
+    background: url("background1.jpg");
+}
+.heading{
+    width: 100%;
+    text-align: left;
+}
+.heading h3{
+    display: inline;
+}
+.heading button{
+    float: right;
+    border: 1px solid black;
+}
+.marioPic{
+    width: 100%;
+}
+#startGameButton, #status{
+    font-size: 24px;
+}
+.instruction{
+    display: inline-block;
+    width: 45%;
+}
+.modal-dialog{
+    width: 90%;
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
